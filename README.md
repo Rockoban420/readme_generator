@@ -13,10 +13,12 @@
 Welcome to my readme generator! it solves the issue of always having to create specific readmes from scratch now all you do is type in your information into the console and voila! A readme is generated with all your inputs. Including a selection of different licenses with badges displayed on the top
 
 ## Installation
-to install, download files run with npm init and npm i to install inquirer dependancies and then node run the index file and enjoy!
+To install, download files run with npm init and npm i to install inquirer dependancies and then node run the index file and enjoy!
 
 ## Usage
 - ![Screenshot](./screenshot/console_ss.png)
+For video walkthrough:
+https://drive.google.com/file/d/1Np3LxUw7B7YACZneilNt2vtm_PavGHm8/view
 
 ## License
   Copyright 2023 
