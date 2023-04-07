@@ -150,6 +150,15 @@ const fileGenerator = ({projectTitle, description, installation, usage, contribu
     })
     return `# ${projectTitle}       
 ${myLicenses[licensePos].badgeURL}
+
+## Table of Contents
+- [Description](##Description)
+- [Installation](##Installation)
+- [Usage](##Usage)
+- [Contributions](##Contributions)
+- [License](##License)
+- [Questions](##Questions)
+
 ## Description
 ${description}
 
@@ -170,15 +179,7 @@ ${myLicenses[licensePos].content}
 
 ## Questions
 If you would like to contact me please email me at ${email}
-And my github profile is https://github.com/${username}
-
-## Table of Contents
-- [Description](##Description)
-- [Installation](##Installation)
-- [Usage](##Usage)
-- [Contributions](##Contributions)
-- [License](##License)
-- [Questions](##Questions)`;
+And my github profile is https://github.com/${username}`;
 }
 
 // TODO: Create a function to initialize app
